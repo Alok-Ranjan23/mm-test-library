@@ -1,0 +1,22 @@
+# Build output
+/build/
+
+# Third-party sources fetched by CMake FetchContent
+/third_party/googletest/
+/third_party/benchmark/
+
+# Compiled artifacts
+*.o
+*.a
+*.so
+*.out
+
+# Benchmark / analysis output
+*.json
+*.csv
+
+# Editor / OS cruft
+.vscode/
+.idea/
+*.swp
+.DS_Store
