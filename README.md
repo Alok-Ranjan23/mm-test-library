@@ -95,11 +95,3 @@ The level-1 summary shows how a variant decomposed into BLAS calls, e.g.:
 ```
 [mm] mm_ipj: done M=2 N=2 K=3 flops=24 gemv_row_axpy=2 axpy=6
 ```
-
-## Status / TODO
-
-- [x] BLAS-1 (`dot`, `axpy`), BLAS-2 (`gemv_*`, `ger_*`), six GEMM variants
-- [x] Correctness suite (shapes, identity, zero, accumulation, padded strides, negative dims)
-- [x] Per-variant examples and layered logging
-- [ ] Full benchmark sweep over all six variants (current `mm_bench.cpp` is a placeholder)
-- [ ] Plotting / analysis of GFLOP/s vs size
